@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Experience from './Pages/Experience';
 import Home from './Pages/Home';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'

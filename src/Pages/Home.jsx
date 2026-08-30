@@ -1,4 +1,3 @@
-import React from 'react'
 import '../App.css';
 import profilepic from '../Assets/profilepicchatgpt.png'
 import Navbar from '../Components/Navbar';
