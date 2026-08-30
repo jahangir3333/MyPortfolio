@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import alinaproject from '../Assets/alinaprojectimage.png'
+import project2 from '../Assets/portfolio project.png'
+import { Link } from 'react-router-dom'
 function Projects() {
     return (
         <>
@@ -11,7 +13,6 @@ function Projects() {
                         <img class="card-img-top" src={alinaproject} alt="Card cap" height="200px" />
                         <div class="card-body">
                             <h5 class="card-title">Alina Online Shopping</h5>
-                            <p class="card-subtitle fst-italic">- Wizklub Pvt Ltd</p>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident tempore assumenda illo.
                                 Doloremque eum aliquam inventore? Nemo officia ullam.</p>
                             <button class="btn btn-primary">Visit Project</button>
@@ -19,13 +20,12 @@ function Projects() {
                     </div>
 
                         <div class="card shadow text-white" style={{ width: '18rem',backgroundColor:'tomato' }}>
-                        <img class="card-img-top" src='https://assets.wizklub.com/images/wizklub/pages/wizklub-futurz/wiz-futurz-logo.png' alt="Card cap" height="200px" />
+                        <img class="card-img-top" src={project2} alt="Card cap" height="200px" />
                         <div class="card-body">
-                            <h5 class="card-title">Project 2</h5>
-                            <p class="card-subtitle fst-italic">- Wizklub Pvt Ltd</p>
+                            <h5 class="card-title">My Portfolio</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident tempore assumenda illo.
                                 Doloremque eum aliquam inventore? Nemo officia ullam.</p>
-                            <button class="btn btn-primary">Visit Project</button>
+                            <Link class="btn btn-primary" to='https://my-portfolio-six-dusky-16.vercel.app/'>Visit Project</Link>
                         </div>
                     </div>
                 </div>
