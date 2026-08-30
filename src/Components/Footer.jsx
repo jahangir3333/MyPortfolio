@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -11,11 +12,11 @@ function Footer() {
       <i class="fa-brands fa-square-whatsapp"></i>
     </div>
     <div class="menu-buttons footer-links d-flex justify-content-center m-3">
-      <a href="#">FAQ</a>
-      <a href="#">Services</a>
-      <a href="#">About Me</a>
-      <a href="#">Contact</a>
-      <a href="#">Privacy Policy</a>
+      <Link to="#">FAQ</Link>
+      <Link to="#">Services</Link>
+      <Link to="#">About Me</Link>
+      <Link to="#">Contact</Link>
+      <Link to="#">Privacy Policy</Link>
     </div>
     <div class="rights-reserved">
       <p style={{fontSize:'10px'}}> 2026 Md Jahangir Hussain | All Rights Reserved</p>
